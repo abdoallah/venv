@@ -1,0 +1,674 @@
+2025-05-17 14:00:10,887 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.44:5000
+2025-05-17 14:00:10,887 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.44:5000
+2025-05-17 14:00:10,887 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 14:00:10,887 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 14:00:10,888 - INFO:  * Restarting with stat
+2025-05-17 14:00:10,888 - INFO:  * Restarting with stat
+2025-05-17 14:00:11,240 - WARNING:  * Debugger is active!
+2025-05-17 14:00:11,240 - WARNING:  * Debugger is active!
+2025-05-17 14:00:11,242 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:00:11,242 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:00:27,093 - INFO: 127.0.0.1 - - [17/May/2025 14:00:27] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-17 14:00:27,093 - INFO: 127.0.0.1 - - [17/May/2025 14:00:27] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-17 14:00:27,122 - INFO: 127.0.0.1 - - [17/May/2025 14:00:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 14:00:27,122 - INFO: 127.0.0.1 - - [17/May/2025 14:00:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 14:13:47,099 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.44:5000
+2025-05-17 14:13:47,099 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.44:5000
+2025-05-17 14:13:47,099 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 14:13:47,099 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 14:13:47,100 - INFO:  * Restarting with stat
+2025-05-17 14:13:47,100 - INFO:  * Restarting with stat
+2025-05-17 14:13:47,416 - WARNING:  * Debugger is active!
+2025-05-17 14:13:47,416 - WARNING:  * Debugger is active!
+2025-05-17 14:13:47,418 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:13:47,418 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:16:00,761 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:16:00,761 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:16:00,824 - INFO:  * Restarting with stat
+2025-05-17 14:16:00,824 - INFO:  * Restarting with stat
+2025-05-17 14:16:01,187 - WARNING:  * Debugger is active!
+2025-05-17 14:16:01,187 - WARNING:  * Debugger is active!
+2025-05-17 14:16:01,188 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:16:01,188 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:16:05,365 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.44:5000
+2025-05-17 14:16:05,365 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.44:5000
+2025-05-17 14:16:05,365 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 14:16:05,365 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 14:16:05,365 - INFO:  * Restarting with stat
+2025-05-17 14:16:05,365 - INFO:  * Restarting with stat
+2025-05-17 14:16:05,682 - WARNING:  * Debugger is active!
+2025-05-17 14:16:05,682 - WARNING:  * Debugger is active!
+2025-05-17 14:16:05,684 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:16:05,684 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:16:15,505 - INFO: 127.0.0.1 - - [17/May/2025 14:16:15] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:16:15,505 - INFO: 127.0.0.1 - - [17/May/2025 14:16:15] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:16:27,591 - INFO: 127.0.0.1 - - [17/May/2025 14:16:27] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:16:27,591 - INFO: 127.0.0.1 - - [17/May/2025 14:16:27] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:16:32,869 - ERROR: Error connecting to SQL Server: ('08001', '[08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]SQL Server does not exist or access denied. (17) (SQLDriverConnect); [08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]ConnectionOpen (Connect()). (53)')
+2025-05-17 14:16:32,869 - ERROR: Error connecting to SQL Server: ('08001', '[08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]SQL Server does not exist or access denied. (17) (SQLDriverConnect); [08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]ConnectionOpen (Connect()). (53)')
+2025-05-17 14:16:32,870 - ERROR: Error in SQL execution: ('08001', '[08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]SQL Server does not exist or access denied. (17) (SQLDriverConnect); [08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]ConnectionOpen (Connect()). (53)')
+2025-05-17 14:16:32,870 - ERROR: Error in SQL execution: ('08001', '[08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]SQL Server does not exist or access denied. (17) (SQLDriverConnect); [08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]ConnectionOpen (Connect()). (53)')
+2025-05-17 14:16:32,871 - INFO: 127.0.0.1 - - [17/May/2025 14:16:32] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 14:16:32,871 - INFO: 127.0.0.1 - - [17/May/2025 14:16:32] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 14:16:43,745 - ERROR: Error connecting to SQL Server: ('08001', '[08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]SQL Server does not exist or access denied. (17) (SQLDriverConnect); [08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]ConnectionOpen (Connect()). (53)')
+2025-05-17 14:16:43,745 - ERROR: Error connecting to SQL Server: ('08001', '[08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]SQL Server does not exist or access denied. (17) (SQLDriverConnect); [08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]ConnectionOpen (Connect()). (53)')
+2025-05-17 14:16:43,746 - ERROR: Error in SQL execution: ('08001', '[08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]SQL Server does not exist or access denied. (17) (SQLDriverConnect); [08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]ConnectionOpen (Connect()). (53)')
+2025-05-17 14:16:43,746 - ERROR: Error in SQL execution: ('08001', '[08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]SQL Server does not exist or access denied. (17) (SQLDriverConnect); [08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]ConnectionOpen (Connect()). (53)')
+2025-05-17 14:16:43,747 - INFO: 127.0.0.1 - - [17/May/2025 14:16:43] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 14:16:43,747 - INFO: 127.0.0.1 - - [17/May/2025 14:16:43] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 14:17:48,080 - INFO: 127.0.0.1 - - [17/May/2025 14:17:48] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:17:48,080 - INFO: 127.0.0.1 - - [17/May/2025 14:17:48] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:18:05,397 - ERROR: Error connecting to SQL Server: ('08001', '[08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]SQL Server does not exist or access denied. (17) (SQLDriverConnect); [08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]ConnectionOpen (Connect()). (53)')
+2025-05-17 14:18:05,397 - ERROR: Error connecting to SQL Server: ('08001', '[08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]SQL Server does not exist or access denied. (17) (SQLDriverConnect); [08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]ConnectionOpen (Connect()). (53)')
+2025-05-17 14:18:05,397 - ERROR: Error in SQL execution: ('08001', '[08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]SQL Server does not exist or access denied. (17) (SQLDriverConnect); [08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]ConnectionOpen (Connect()). (53)')
+2025-05-17 14:18:05,397 - ERROR: Error in SQL execution: ('08001', '[08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]SQL Server does not exist or access denied. (17) (SQLDriverConnect); [08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]ConnectionOpen (Connect()). (53)')
+2025-05-17 14:18:05,398 - INFO: 127.0.0.1 - - [17/May/2025 14:18:05] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 14:18:05,398 - INFO: 127.0.0.1 - - [17/May/2025 14:18:05] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 14:19:52,053 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:19:52,053 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:19:52,128 - INFO:  * Restarting with stat
+2025-05-17 14:19:52,128 - INFO:  * Restarting with stat
+2025-05-17 14:19:52,479 - WARNING:  * Debugger is active!
+2025-05-17 14:19:52,479 - WARNING:  * Debugger is active!
+2025-05-17 14:19:52,480 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:19:52,480 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:19:59,477 - INFO: 127.0.0.1 - - [17/May/2025 14:19:59] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:19:59,477 - INFO: 127.0.0.1 - - [17/May/2025 14:19:59] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:19:59,730 - ERROR: Error in SQL execution: name 'localhost' is not defined
+2025-05-17 14:19:59,730 - ERROR: Error in SQL execution: name 'localhost' is not defined
+2025-05-17 14:19:59,731 - INFO: 127.0.0.1 - - [17/May/2025 14:19:59] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 14:19:59,731 - INFO: 127.0.0.1 - - [17/May/2025 14:19:59] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 14:24:56,500 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:24:56,500 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:24:56,560 - INFO:  * Restarting with stat
+2025-05-17 14:24:56,560 - INFO:  * Restarting with stat
+2025-05-17 14:24:56,887 - WARNING:  * Debugger is active!
+2025-05-17 14:24:56,887 - WARNING:  * Debugger is active!
+2025-05-17 14:24:56,888 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:24:56,888 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:25:15,082 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:25:15,082 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:25:15,139 - INFO:  * Restarting with stat
+2025-05-17 14:25:15,139 - INFO:  * Restarting with stat
+2025-05-17 14:25:15,473 - WARNING:  * Debugger is active!
+2025-05-17 14:25:15,473 - WARNING:  * Debugger is active!
+2025-05-17 14:25:15,475 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:25:15,475 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:26:19,138 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:26:19,138 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:26:19,197 - INFO:  * Restarting with stat
+2025-05-17 14:26:19,197 - INFO:  * Restarting with stat
+2025-05-17 14:26:19,559 - WARNING:  * Debugger is active!
+2025-05-17 14:26:19,559 - WARNING:  * Debugger is active!
+2025-05-17 14:26:19,561 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:26:19,561 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:27:24,988 - INFO: 127.0.0.1 - - [17/May/2025 14:27:24] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:27:24,988 - INFO: 127.0.0.1 - - [17/May/2025 14:27:24] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:27:25,284 - INFO: Successfully connected to SQL Server.
+2025-05-17 14:27:25,284 - INFO: Successfully connected to SQL Server.
+2025-05-17 14:27:25,558 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\SQLResults_20250517_142725_5e6836c7.xlsx
+2025-05-17 14:27:25,558 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\SQLResults_20250517_142725_5e6836c7.xlsx
+2025-05-17 14:27:25,561 - INFO: Database connection closed.
+2025-05-17 14:27:25,561 - INFO: Database connection closed.
+2025-05-17 14:27:25,561 - INFO: 127.0.0.1 - - [17/May/2025 14:27:25] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:27:25,561 - INFO: 127.0.0.1 - - [17/May/2025 14:27:25] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:27:58,706 - INFO: 127.0.0.1 - - [17/May/2025 14:27:58] "GET /download/SQLResults_20250517_142725_5e6836c7.xlsx HTTP/1.1" 200 -
+2025-05-17 14:27:58,706 - INFO: 127.0.0.1 - - [17/May/2025 14:27:58] "GET /download/SQLResults_20250517_142725_5e6836c7.xlsx HTTP/1.1" 200 -
+2025-05-17 14:33:42,421 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:33:42,421 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:33:42,498 - INFO:  * Restarting with stat
+2025-05-17 14:33:42,498 - INFO:  * Restarting with stat
+2025-05-17 14:33:42,860 - WARNING:  * Debugger is active!
+2025-05-17 14:33:42,860 - WARNING:  * Debugger is active!
+2025-05-17 14:33:42,862 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:33:42,862 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:36:10,310 - INFO: 127.0.0.1 - - [17/May/2025 14:36:10] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:36:10,310 - INFO: 127.0.0.1 - - [17/May/2025 14:36:10] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:36:10,588 - INFO: Successfully connected to SQL Server.
+2025-05-17 14:36:10,588 - INFO: Successfully connected to SQL Server.
+2025-05-17 14:36:10,713 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\SQLResults_20250517_143610_b6e0eaa9.xlsx
+2025-05-17 14:36:10,713 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\SQLResults_20250517_143610_b6e0eaa9.xlsx
+2025-05-17 14:36:10,715 - INFO: Database connection closed.
+2025-05-17 14:36:10,715 - INFO: Database connection closed.
+2025-05-17 14:36:10,716 - INFO: 127.0.0.1 - - [17/May/2025 14:36:10] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:36:10,716 - INFO: 127.0.0.1 - - [17/May/2025 14:36:10] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:41:30,090 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:41:30,090 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:41:30,166 - INFO:  * Restarting with stat
+2025-05-17 14:41:30,166 - INFO:  * Restarting with stat
+2025-05-17 14:48:01,235 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.44:5000
+2025-05-17 14:48:01,235 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.44:5000
+2025-05-17 14:48:01,235 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 14:48:01,235 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 14:48:01,235 - INFO:  * Restarting with stat
+2025-05-17 14:48:01,235 - INFO:  * Restarting with stat
+2025-05-17 14:48:01,553 - WARNING:  * Debugger is active!
+2025-05-17 14:48:01,553 - WARNING:  * Debugger is active!
+2025-05-17 14:48:01,554 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:48:01,554 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:48:06,280 - INFO: 127.0.0.1 - - [17/May/2025 14:48:06] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:48:06,280 - INFO: 127.0.0.1 - - [17/May/2025 14:48:06] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:48:06,564 - INFO: Successfully connected to SQL Server.
+2025-05-17 14:48:06,564 - INFO: Successfully connected to SQL Server.
+2025-05-17 14:48:06,572 - ERROR: Error in SQL execution: 'SQLScriptExecutor' object has no attribute 'close_connection'
+2025-05-17 14:48:06,572 - ERROR: Error in SQL execution: 'SQLScriptExecutor' object has no attribute 'close_connection'
+2025-05-17 14:48:06,573 - INFO: 127.0.0.1 - - [17/May/2025 14:48:06] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 14:48:06,573 - INFO: 127.0.0.1 - - [17/May/2025 14:48:06] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 14:50:18,941 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:50:18,941 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:50:18,993 - INFO:  * Restarting with stat
+2025-05-17 14:50:18,993 - INFO:  * Restarting with stat
+2025-05-17 14:50:19,347 - WARNING:  * Debugger is active!
+2025-05-17 14:50:19,347 - WARNING:  * Debugger is active!
+2025-05-17 14:50:19,349 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:50:19,349 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:50:23,007 - INFO: 127.0.0.1 - - [17/May/2025 14:50:23] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:50:23,007 - INFO: 127.0.0.1 - - [17/May/2025 14:50:23] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:50:23,273 - ERROR: Error in SQL execution: SQLScriptExecutor.__init__() got an unexpected keyword argument 'use_windows_authentication'
+2025-05-17 14:50:23,273 - ERROR: Error in SQL execution: SQLScriptExecutor.__init__() got an unexpected keyword argument 'use_windows_authentication'
+2025-05-17 14:50:23,274 - INFO: 127.0.0.1 - - [17/May/2025 14:50:23] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 14:50:23,274 - INFO: 127.0.0.1 - - [17/May/2025 14:50:23] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 14:52:55,948 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:52:55,948 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:52:56,002 - INFO:  * Restarting with stat
+2025-05-17 14:52:56,002 - INFO:  * Restarting with stat
+2025-05-17 14:52:56,351 - WARNING:  * Debugger is active!
+2025-05-17 14:52:56,351 - WARNING:  * Debugger is active!
+2025-05-17 14:52:56,353 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:52:56,353 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:53:33,195 - INFO: 127.0.0.1 - - [17/May/2025 14:53:33] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:53:33,195 - INFO: 127.0.0.1 - - [17/May/2025 14:53:33] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:53:33,442 - ERROR: Error in SQL execution: name 'localhost' is not defined
+2025-05-17 14:53:33,442 - ERROR: Error in SQL execution: name 'localhost' is not defined
+2025-05-17 14:53:33,443 - INFO: 127.0.0.1 - - [17/May/2025 14:53:33] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 14:53:33,443 - INFO: 127.0.0.1 - - [17/May/2025 14:53:33] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 14:53:53,672 - INFO: 127.0.0.1 - - [17/May/2025 14:53:53] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:53:53,672 - INFO: 127.0.0.1 - - [17/May/2025 14:53:53] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:53:53,978 - ERROR: Error in SQL execution: name 'localhost' is not defined
+2025-05-17 14:53:53,978 - ERROR: Error in SQL execution: name 'localhost' is not defined
+2025-05-17 14:53:53,979 - INFO: 127.0.0.1 - - [17/May/2025 14:53:53] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 14:53:53,979 - INFO: 127.0.0.1 - - [17/May/2025 14:53:53] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 14:54:34,396 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:54:34,396 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:54:34,458 - INFO:  * Restarting with stat
+2025-05-17 14:54:34,458 - INFO:  * Restarting with stat
+2025-05-17 14:54:34,791 - WARNING:  * Debugger is active!
+2025-05-17 14:54:34,791 - WARNING:  * Debugger is active!
+2025-05-17 14:54:34,792 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:54:34,792 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:54:35,810 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:54:35,810 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 14:54:35,853 - INFO:  * Restarting with stat
+2025-05-17 14:54:35,853 - INFO:  * Restarting with stat
+2025-05-17 14:54:36,169 - WARNING:  * Debugger is active!
+2025-05-17 14:54:36,169 - WARNING:  * Debugger is active!
+2025-05-17 14:54:36,170 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:54:36,170 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 14:55:23,135 - INFO: 127.0.0.1 - - [17/May/2025 14:55:23] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:55:23,135 - INFO: 127.0.0.1 - - [17/May/2025 14:55:23] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:55:23,422 - INFO: Successfully connected to SQL Server.
+2025-05-17 14:55:23,422 - INFO: Successfully connected to SQL Server.
+2025-05-17 14:55:23,539 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\SQLResults_20250517_145523_47b45af7.xlsx
+2025-05-17 14:55:23,539 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\SQLResults_20250517_145523_47b45af7.xlsx
+2025-05-17 14:55:23,541 - INFO: Database connection closed.
+2025-05-17 14:55:23,541 - INFO: Database connection closed.
+2025-05-17 14:55:23,541 - INFO: 127.0.0.1 - - [17/May/2025 14:55:23] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 14:55:23,541 - INFO: 127.0.0.1 - - [17/May/2025 14:55:23] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:01:25,857 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 15:01:25,857 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 15:01:25,924 - INFO:  * Restarting with stat
+2025-05-17 15:01:25,924 - INFO:  * Restarting with stat
+2025-05-17 15:04:29,025 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.44:5000
+2025-05-17 15:04:29,025 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.44:5000
+2025-05-17 15:04:29,025 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 15:04:29,025 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 15:04:29,026 - INFO:  * Restarting with stat
+2025-05-17 15:04:29,026 - INFO:  * Restarting with stat
+2025-05-17 15:04:29,333 - WARNING:  * Debugger is active!
+2025-05-17 15:04:29,333 - WARNING:  * Debugger is active!
+2025-05-17 15:04:29,335 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 15:04:29,335 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 15:04:33,928 - INFO: 127.0.0.1 - - [17/May/2025 15:04:33] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:04:33,928 - INFO: 127.0.0.1 - - [17/May/2025 15:04:33] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:04:34,219 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:04:34,219 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:04:34,346 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\SQLResults_20250517_150434_6f25625d.xlsx
+2025-05-17 15:04:34,346 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\SQLResults_20250517_150434_6f25625d.xlsx
+2025-05-17 15:04:34,348 - INFO: Database connection closed.
+2025-05-17 15:04:34,348 - INFO: Database connection closed.
+2025-05-17 15:04:34,349 - INFO: 127.0.0.1 - - [17/May/2025 15:04:34] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:04:34,349 - INFO: 127.0.0.1 - - [17/May/2025 15:04:34] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:05:19,141 - INFO: 127.0.0.1 - - [17/May/2025 15:05:19] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:05:19,141 - INFO: 127.0.0.1 - - [17/May/2025 15:05:19] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:05:19,461 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:05:19,461 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:05:19,477 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\SQLResults_20250517_150519_2689cf7d.xlsx
+2025-05-17 15:05:19,477 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\SQLResults_20250517_150519_2689cf7d.xlsx
+2025-05-17 15:05:19,479 - INFO: Database connection closed.
+2025-05-17 15:05:19,479 - INFO: Database connection closed.
+2025-05-17 15:05:19,480 - INFO: 127.0.0.1 - - [17/May/2025 15:05:19] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:05:19,480 - INFO: 127.0.0.1 - - [17/May/2025 15:05:19] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:08:31,268 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 15:08:31,268 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 15:08:31,330 - INFO:  * Restarting with stat
+2025-05-17 15:08:31,330 - INFO:  * Restarting with stat
+2025-05-17 15:08:31,673 - WARNING:  * Debugger is active!
+2025-05-17 15:08:31,673 - WARNING:  * Debugger is active!
+2025-05-17 15:08:31,674 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 15:08:31,674 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 15:09:07,249 - INFO: 127.0.0.1 - - [17/May/2025 15:09:07] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:09:07,249 - INFO: 127.0.0.1 - - [17/May/2025 15:09:07] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:09:07,543 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:09:07,543 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:09:07,640 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\2025-05-17\SQLResults_20250517_150907_bf79b7f7.xlsx
+2025-05-17 15:09:07,640 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\2025-05-17\SQLResults_20250517_150907_bf79b7f7.xlsx
+2025-05-17 15:09:07,642 - INFO: Database connection closed.
+2025-05-17 15:09:07,642 - INFO: Database connection closed.
+2025-05-17 15:09:07,642 - INFO: 127.0.0.1 - - [17/May/2025 15:09:07] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:09:07,642 - INFO: 127.0.0.1 - - [17/May/2025 15:09:07] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:09:18,298 - INFO: 127.0.0.1 - - [17/May/2025 15:09:18] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:09:18,298 - INFO: 127.0.0.1 - - [17/May/2025 15:09:18] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:09:18,610 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:09:18,610 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:09:18,621 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\2025-05-17\SQLResults_20250517_150918_d03cbe99.xlsx
+2025-05-17 15:09:18,621 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\2025-05-17\SQLResults_20250517_150918_d03cbe99.xlsx
+2025-05-17 15:09:18,623 - INFO: Database connection closed.
+2025-05-17 15:09:18,623 - INFO: Database connection closed.
+2025-05-17 15:09:18,623 - INFO: 127.0.0.1 - - [17/May/2025 15:09:18] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:09:18,623 - INFO: 127.0.0.1 - - [17/May/2025 15:09:18] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:09:23,170 - INFO: 127.0.0.1 - - [17/May/2025 15:09:23] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:09:23,170 - INFO: 127.0.0.1 - - [17/May/2025 15:09:23] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:09:23,479 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:09:23,479 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:09:23,491 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\2025-05-17\SQLResults_20250517_150923_143339ec.xlsx
+2025-05-17 15:09:23,491 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\2025-05-17\SQLResults_20250517_150923_143339ec.xlsx
+2025-05-17 15:09:23,492 - INFO: Database connection closed.
+2025-05-17 15:09:23,492 - INFO: Database connection closed.
+2025-05-17 15:09:23,492 - INFO: 127.0.0.1 - - [17/May/2025 15:09:23] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:09:23,492 - INFO: 127.0.0.1 - - [17/May/2025 15:09:23] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:17:01,782 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 15:17:01,782 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 15:17:01,865 - INFO:  * Restarting with stat
+2025-05-17 15:17:01,865 - INFO:  * Restarting with stat
+2025-05-17 15:17:02,215 - WARNING:  * Debugger is active!
+2025-05-17 15:17:02,215 - WARNING:  * Debugger is active!
+2025-05-17 15:17:02,216 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 15:17:02,216 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 15:20:22,800 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 15:20:22,800 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 15:20:22,869 - INFO:  * Restarting with stat
+2025-05-17 15:20:22,869 - INFO:  * Restarting with stat
+2025-05-17 15:20:23,228 - WARNING:  * Debugger is active!
+2025-05-17 15:20:23,228 - WARNING:  * Debugger is active!
+2025-05-17 15:20:23,230 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 15:20:23,230 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 15:20:55,170 - INFO: 127.0.0.1 - - [17/May/2025 15:20:55] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:20:55,170 - INFO: 127.0.0.1 - - [17/May/2025 15:20:55] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:20:55,454 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:20:55,454 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:20:55,569 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\2025-05-17\SQLResults_20250517_152055_a2e5262b.xlsx
+2025-05-17 15:20:55,569 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\2025-05-17\SQLResults_20250517_152055_a2e5262b.xlsx
+2025-05-17 15:20:55,571 - INFO: Database connection closed.
+2025-05-17 15:20:55,571 - INFO: Database connection closed.
+2025-05-17 15:20:55,572 - INFO: 127.0.0.1 - - [17/May/2025 15:20:55] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:20:55,572 - INFO: 127.0.0.1 - - [17/May/2025 15:20:55] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:27:03,891 - INFO: 127.0.0.1 - - [17/May/2025 15:27:03] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:27:03,891 - INFO: 127.0.0.1 - - [17/May/2025 15:27:03] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:27:04,155 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:27:04,155 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:27:04,171 - INFO: Results exported to: D:\Devops\Python\Scripts\New folder\2025-05-17\SQLResults_20250517_152704_164ab375.xlsx
+2025-05-17 15:27:04,171 - INFO: Results exported to: D:\Devops\Python\Scripts\New folder\2025-05-17\SQLResults_20250517_152704_164ab375.xlsx
+2025-05-17 15:27:04,173 - INFO: Database connection closed.
+2025-05-17 15:27:04,173 - INFO: Database connection closed.
+2025-05-17 15:27:04,173 - INFO: 127.0.0.1 - - [17/May/2025 15:27:04] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:27:04,173 - INFO: 127.0.0.1 - - [17/May/2025 15:27:04] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:37:18,450 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 15:37:18,450 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 15:37:18,526 - INFO:  * Restarting with stat
+2025-05-17 15:37:18,526 - INFO:  * Restarting with stat
+2025-05-17 15:37:18,849 - WARNING:  * Debugger is active!
+2025-05-17 15:37:18,849 - WARNING:  * Debugger is active!
+2025-05-17 15:37:18,851 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 15:37:18,851 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 15:44:46,985 - INFO: 127.0.0.1 - - [17/May/2025 15:44:46] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:44:46,985 - INFO: 127.0.0.1 - - [17/May/2025 15:44:46] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:44:47,261 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:44:47,261 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:44:47,384 - INFO: Results exported to: D:\Devops\Python\Scripts\New folder\2025-05-17\SQLResults_20250517_154447_1313d034.xlsx
+2025-05-17 15:44:47,384 - INFO: Results exported to: D:\Devops\Python\Scripts\New folder\2025-05-17\SQLResults_20250517_154447_1313d034.xlsx
+2025-05-17 15:44:47,386 - INFO: Database connection closed.
+2025-05-17 15:44:47,386 - INFO: Database connection closed.
+2025-05-17 15:44:47,386 - INFO: 127.0.0.1 - - [17/May/2025 15:44:47] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:44:47,386 - INFO: 127.0.0.1 - - [17/May/2025 15:44:47] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:47:15,852 - INFO: 127.0.0.1 - - [17/May/2025 15:47:15] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:47:15,852 - INFO: 127.0.0.1 - - [17/May/2025 15:47:15] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:47:16,120 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:47:16,120 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:47:16,129 - INFO: Results exported to: 2025-05-17\SQLResults_20250517_154716_3c7ea438.xlsx
+2025-05-17 15:47:16,129 - INFO: Results exported to: 2025-05-17\SQLResults_20250517_154716_3c7ea438.xlsx
+2025-05-17 15:47:16,130 - INFO: Database connection closed.
+2025-05-17 15:47:16,130 - INFO: Database connection closed.
+2025-05-17 15:47:16,131 - INFO: 127.0.0.1 - - [17/May/2025 15:47:16] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:47:16,131 - INFO: 127.0.0.1 - - [17/May/2025 15:47:16] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:48:24,714 - INFO: 127.0.0.1 - - [17/May/2025 15:48:24] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:48:24,714 - INFO: 127.0.0.1 - - [17/May/2025 15:48:24] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:48:24,994 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:48:24,994 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:48:25,003 - INFO: Results exported to: 2025-05-17\SQLResults_20250517_154824_df0dacae.xlsx
+2025-05-17 15:48:25,003 - INFO: Results exported to: 2025-05-17\SQLResults_20250517_154824_df0dacae.xlsx
+2025-05-17 15:48:25,004 - INFO: Database connection closed.
+2025-05-17 15:48:25,004 - INFO: Database connection closed.
+2025-05-17 15:48:25,004 - INFO: 127.0.0.1 - - [17/May/2025 15:48:25] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:48:25,004 - INFO: 127.0.0.1 - - [17/May/2025 15:48:25] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:48:56,201 - INFO: 127.0.0.1 - - [17/May/2025 15:48:56] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:48:56,201 - INFO: 127.0.0.1 - - [17/May/2025 15:48:56] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:48:56,519 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:48:56,519 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:48:56,535 - INFO: Results exported to: 2025-05-17\SQLResults_20250517_154856_19dede11.xlsx
+2025-05-17 15:48:56,535 - INFO: Results exported to: 2025-05-17\SQLResults_20250517_154856_19dede11.xlsx
+2025-05-17 15:48:56,536 - INFO: Database connection closed.
+2025-05-17 15:48:56,536 - INFO: Database connection closed.
+2025-05-17 15:48:56,537 - INFO: 127.0.0.1 - - [17/May/2025 15:48:56] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:48:56,537 - INFO: 127.0.0.1 - - [17/May/2025 15:48:56] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:50:55,412 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 15:50:55,412 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 15:50:55,486 - INFO:  * Restarting with stat
+2025-05-17 15:50:55,486 - INFO:  * Restarting with stat
+2025-05-17 15:50:55,844 - WARNING:  * Debugger is active!
+2025-05-17 15:50:55,844 - WARNING:  * Debugger is active!
+2025-05-17 15:50:55,845 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 15:50:55,845 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 15:51:09,481 - INFO: 127.0.0.1 - - [17/May/2025 15:51:09] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:51:09,481 - INFO: 127.0.0.1 - - [17/May/2025 15:51:09] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:51:09,745 - ERROR: Execution error: name 'OUTPUT_FOLDER' is not defined
+2025-05-17 15:51:09,745 - ERROR: Execution error: name 'OUTPUT_FOLDER' is not defined
+2025-05-17 15:51:09,746 - INFO: 127.0.0.1 - - [17/May/2025 15:51:09] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 15:51:09,746 - INFO: 127.0.0.1 - - [17/May/2025 15:51:09] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 15:51:25,341 - INFO: 127.0.0.1 - - [17/May/2025 15:51:25] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:51:25,341 - INFO: 127.0.0.1 - - [17/May/2025 15:51:25] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:51:25,645 - ERROR: Execution error: name 'OUTPUT_FOLDER' is not defined
+2025-05-17 15:51:25,645 - ERROR: Execution error: name 'OUTPUT_FOLDER' is not defined
+2025-05-17 15:51:25,646 - INFO: 127.0.0.1 - - [17/May/2025 15:51:25] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 15:51:25,646 - INFO: 127.0.0.1 - - [17/May/2025 15:51:25] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 15:51:29,145 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 15:51:29,145 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 15:51:29,199 - INFO:  * Restarting with stat
+2025-05-17 15:51:29,199 - INFO:  * Restarting with stat
+2025-05-17 15:51:29,525 - WARNING:  * Debugger is active!
+2025-05-17 15:51:29,525 - WARNING:  * Debugger is active!
+2025-05-17 15:51:29,526 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 15:51:29,526 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 15:51:34,723 - INFO: 127.0.0.1 - - [17/May/2025 15:51:34] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:51:34,723 - INFO: 127.0.0.1 - - [17/May/2025 15:51:34] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:51:35,028 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:51:35,028 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:51:35,126 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\2025-05-17\SQLResults_20250517_155135_cae6055f.xlsx
+2025-05-17 15:51:35,126 - INFO: Results exported to: D:\\Devops\\Python\\Scripts\2025-05-17\SQLResults_20250517_155135_cae6055f.xlsx
+2025-05-17 15:51:35,128 - INFO: Database connection closed.
+2025-05-17 15:51:35,128 - INFO: Database connection closed.
+2025-05-17 15:51:35,128 - INFO: 127.0.0.1 - - [17/May/2025 15:51:35] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:51:35,128 - INFO: 127.0.0.1 - - [17/May/2025 15:51:35] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:51:44,150 - INFO: 127.0.0.1 - - [17/May/2025 15:51:44] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:51:44,150 - INFO: 127.0.0.1 - - [17/May/2025 15:51:44] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:51:44,462 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:51:44,462 - INFO: Successfully connected to SQL Server.
+2025-05-17 15:51:44,477 - INFO: Results exported to: 2025-05-17\SQLResults_20250517_155144_dab27bf4.xlsx
+2025-05-17 15:51:44,477 - INFO: Results exported to: 2025-05-17\SQLResults_20250517_155144_dab27bf4.xlsx
+2025-05-17 15:51:44,479 - INFO: Database connection closed.
+2025-05-17 15:51:44,479 - INFO: Database connection closed.
+2025-05-17 15:51:44,480 - INFO: 127.0.0.1 - - [17/May/2025 15:51:44] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 15:51:44,480 - INFO: 127.0.0.1 - - [17/May/2025 15:51:44] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:00:21,828 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 16:00:21,828 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 16:00:21,901 - INFO:  * Restarting with stat
+2025-05-17 16:00:21,901 - INFO:  * Restarting with stat
+2025-05-17 16:00:22,237 - WARNING:  * Debugger is active!
+2025-05-17 16:00:22,237 - WARNING:  * Debugger is active!
+2025-05-17 16:00:22,239 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 16:00:22,239 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 16:01:39,866 - INFO: 127.0.0.1 - - [17/May/2025 16:01:39] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:01:39,866 - INFO: 127.0.0.1 - - [17/May/2025 16:01:39] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:01:40,143 - INFO: Successfully connected to SQL Server.
+2025-05-17 16:01:40,143 - INFO: Successfully connected to SQL Server.
+2025-05-17 16:01:40,261 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_160140_5350be75.xlsx
+2025-05-17 16:01:40,261 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_160140_5350be75.xlsx
+2025-05-17 16:01:40,263 - INFO: Database connection closed.
+2025-05-17 16:01:40,263 - INFO: Database connection closed.
+2025-05-17 16:01:40,264 - INFO: 127.0.0.1 - - [17/May/2025 16:01:40] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:01:40,264 - INFO: 127.0.0.1 - - [17/May/2025 16:01:40] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:01:57,358 - INFO: 127.0.0.1 - - [17/May/2025 16:01:57] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:01:57,358 - INFO: 127.0.0.1 - - [17/May/2025 16:01:57] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:01:57,666 - INFO: Successfully connected to SQL Server.
+2025-05-17 16:01:57,666 - INFO: Successfully connected to SQL Server.
+2025-05-17 16:01:57,681 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_160157_35a7a8db.xlsx
+2025-05-17 16:01:57,681 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_160157_35a7a8db.xlsx
+2025-05-17 16:01:57,682 - INFO: Database connection closed.
+2025-05-17 16:01:57,682 - INFO: Database connection closed.
+2025-05-17 16:01:57,682 - INFO: 127.0.0.1 - - [17/May/2025 16:01:57] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:01:57,682 - INFO: 127.0.0.1 - - [17/May/2025 16:01:57] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:08:47,144 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 16:08:47,144 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 16:08:47,212 - INFO:  * Restarting with stat
+2025-05-17 16:08:47,212 - INFO:  * Restarting with stat
+2025-05-17 16:08:47,537 - WARNING:  * Debugger is active!
+2025-05-17 16:08:47,537 - WARNING:  * Debugger is active!
+2025-05-17 16:08:47,538 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 16:08:47,538 - INFO:  * Debugger PIN: 579-098-817
+2025-05-17 16:34:23,489 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 16:34:23,489 - INFO:  * Detected change in 'D:\\Devops\\Python\\venv\\sql_web_app.py', reloading
+2025-05-17 16:34:23,558 - INFO:  * Restarting with stat
+2025-05-17 16:34:23,558 - INFO:  * Restarting with stat
+2025-05-17 16:12:59,437 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.2:5000
+2025-05-17 16:12:59,437 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.2:5000
+2025-05-17 16:12:59,438 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 16:12:59,438 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 16:12:59,439 - INFO:  * Restarting with stat
+2025-05-17 16:12:59,439 - INFO:  * Restarting with stat
+2025-05-17 16:12:59,710 - WARNING:  * Debugger is active!
+2025-05-17 16:12:59,710 - WARNING:  * Debugger is active!
+2025-05-17 16:12:59,714 - INFO:  * Debugger PIN: 822-010-523
+2025-05-17 16:12:59,714 - INFO:  * Debugger PIN: 822-010-523
+2025-05-17 16:14:21,263 - INFO: 172.19.0.1 - - [17/May/2025 16:14:21] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:14:21,263 - INFO: 172.19.0.1 - - [17/May/2025 16:14:21] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:14:21,273 - ERROR: Error connecting to SQL Server: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:14:21,273 - ERROR: Error connecting to SQL Server: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:14:21,274 - ERROR: Execution error: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:14:21,274 - ERROR: Execution error: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:14:21,275 - INFO: 172.19.0.1 - - [17/May/2025 16:14:21] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 16:14:21,275 - INFO: 172.19.0.1 - - [17/May/2025 16:14:21] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 16:15:44,799 - INFO: 172.19.0.1 - - [17/May/2025 16:15:44] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:15:44,799 - INFO: 172.19.0.1 - - [17/May/2025 16:15:44] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:15:44,803 - ERROR: Error connecting to SQL Server: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:15:44,803 - ERROR: Error connecting to SQL Server: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:15:44,804 - ERROR: Execution error: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:15:44,804 - ERROR: Execution error: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:15:44,805 - INFO: 172.19.0.1 - - [17/May/2025 16:15:44] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 16:15:44,805 - INFO: 172.19.0.1 - - [17/May/2025 16:15:44] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 16:16:08,660 - INFO: 172.19.0.1 - - [17/May/2025 16:16:08] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:16:08,660 - INFO: 172.19.0.1 - - [17/May/2025 16:16:08] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:16:08,663 - ERROR: Error connecting to SQL Server: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:16:08,663 - ERROR: Error connecting to SQL Server: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:16:08,664 - ERROR: Execution error: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:16:08,664 - ERROR: Execution error: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:16:08,665 - INFO: 172.19.0.1 - - [17/May/2025 16:16:08] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 16:16:08,665 - INFO: 172.19.0.1 - - [17/May/2025 16:16:08] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 16:19:54,439 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.2:5000
+2025-05-17 16:19:54,439 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.2:5000
+2025-05-17 16:19:54,440 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 16:19:54,440 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 16:19:54,441 - INFO:  * Restarting with stat
+2025-05-17 16:19:54,441 - INFO:  * Restarting with stat
+2025-05-17 16:19:54,711 - WARNING:  * Debugger is active!
+2025-05-17 16:19:54,711 - WARNING:  * Debugger is active!
+2025-05-17 16:19:54,712 - INFO:  * Debugger PIN: 952-643-047
+2025-05-17 16:19:54,712 - INFO:  * Debugger PIN: 952-643-047
+2025-05-17 16:19:58,866 - INFO: 172.19.0.1 - - [17/May/2025 16:19:58] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:19:58,866 - INFO: 172.19.0.1 - - [17/May/2025 16:19:58] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:19:58,874 - ERROR: Error connecting to SQL Server: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:19:58,874 - ERROR: Error connecting to SQL Server: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:19:58,874 - ERROR: Execution error: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:19:58,874 - ERROR: Execution error: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:19:58,875 - INFO: 172.19.0.1 - - [17/May/2025 16:19:58] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 16:19:58,875 - INFO: 172.19.0.1 - - [17/May/2025 16:19:58] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 16:20:29,029 - INFO: 172.19.0.1 - - [17/May/2025 16:20:29] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:20:29,029 - INFO: 172.19.0.1 - - [17/May/2025 16:20:29] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 16:20:29,032 - ERROR: Error connecting to SQL Server: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:20:29,032 - ERROR: Error connecting to SQL Server: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:20:29,033 - ERROR: Execution error: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:20:29,033 - ERROR: Execution error: ('01000', "[01000] [unixODBC][Driver Manager]Can't open lib 'SQL Server' : file not found (0) (SQLDriverConnect)")
+2025-05-17 16:20:29,034 - INFO: 172.19.0.1 - - [17/May/2025 16:20:29] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 16:20:29,034 - INFO: 172.19.0.1 - - [17/May/2025 16:20:29] "[35m[1mPOST /execute-sql HTTP/1.1[0m" 500 -
+2025-05-17 16:23:52,416 - INFO:  * Detected change in '/app/sql_web_app.py', reloading
+2025-05-17 16:23:52,416 - INFO:  * Detected change in '/app/sql_web_app.py', reloading
+2025-05-17 16:23:52,469 - INFO:  * Restarting with stat
+2025-05-17 16:23:52,469 - INFO:  * Restarting with stat
+2025-05-17 16:23:52,860 - WARNING:  * Debugger is active!
+2025-05-17 16:23:52,860 - WARNING:  * Debugger is active!
+2025-05-17 16:23:52,861 - INFO:  * Debugger PIN: 952-643-047
+2025-05-17 16:23:52,861 - INFO:  * Debugger PIN: 952-643-047
+2025-05-17 19:27:51,165 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.44:5000
+2025-05-17 19:27:51,165 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.44:5000
+2025-05-17 19:27:51,166 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 19:27:51,166 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 19:27:51,166 - INFO:  * Restarting with stat
+2025-05-17 19:27:51,166 - INFO:  * Restarting with stat
+2025-05-17 19:27:51,501 - WARNING:  * Debugger is active!
+2025-05-17 19:27:51,501 - WARNING:  * Debugger is active!
+2025-05-17 19:27:51,502 - INFO:  * Debugger PIN: 627-101-141
+2025-05-17 19:27:51,502 - INFO:  * Debugger PIN: 627-101-141
+2025-05-17 19:27:59,703 - INFO: 127.0.0.1 - - [17/May/2025 19:27:59] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:27:59,703 - INFO: 127.0.0.1 - - [17/May/2025 19:27:59] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:28:00,002 - INFO: Successfully connected to SQL Server.
+2025-05-17 19:28:00,002 - INFO: Successfully connected to SQL Server.
+2025-05-17 19:28:00,189 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_192800_738137c1.xlsx
+2025-05-17 19:28:00,189 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_192800_738137c1.xlsx
+2025-05-17 19:28:00,191 - INFO: Database connection closed.
+2025-05-17 19:28:00,191 - INFO: Database connection closed.
+2025-05-17 19:28:00,191 - INFO: 127.0.0.1 - - [17/May/2025 19:28:00] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:28:00,191 - INFO: 127.0.0.1 - - [17/May/2025 19:28:00] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:33:23,836 - INFO: 127.0.0.1 - - [17/May/2025 19:33:23] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:33:23,836 - INFO: 127.0.0.1 - - [17/May/2025 19:33:23] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:33:24,112 - INFO: Successfully connected to SQL Server.
+2025-05-17 19:33:24,112 - INFO: Successfully connected to SQL Server.
+2025-05-17 19:33:24,126 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_193324_849bab05.xlsx
+2025-05-17 19:33:24,126 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_193324_849bab05.xlsx
+2025-05-17 19:33:24,128 - INFO: Database connection closed.
+2025-05-17 19:33:24,128 - INFO: Database connection closed.
+2025-05-17 19:33:24,128 - INFO: 127.0.0.1 - - [17/May/2025 19:33:24] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:33:24,128 - INFO: 127.0.0.1 - - [17/May/2025 19:33:24] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:33:28,203 - INFO: Successfully connected to SQL Server.
+2025-05-17 19:33:28,203 - INFO: Successfully connected to SQL Server.
+2025-05-17 19:33:28,218 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_193328_73a12d21.xlsx
+2025-05-17 19:33:28,218 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_193328_73a12d21.xlsx
+2025-05-17 19:33:28,220 - INFO: Database connection closed.
+2025-05-17 19:33:28,220 - INFO: Database connection closed.
+2025-05-17 19:33:28,221 - INFO: 127.0.0.1 - - [17/May/2025 19:33:28] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:33:28,221 - INFO: 127.0.0.1 - - [17/May/2025 19:33:28] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:33:30,571 - INFO: 127.0.0.1 - - [17/May/2025 19:33:30] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:33:30,571 - INFO: 127.0.0.1 - - [17/May/2025 19:33:30] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:33:30,824 - INFO: Successfully connected to SQL Server.
+2025-05-17 19:33:30,824 - INFO: Successfully connected to SQL Server.
+2025-05-17 19:33:30,836 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_193330_c8807f98.xlsx
+2025-05-17 19:33:30,836 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_193330_c8807f98.xlsx
+2025-05-17 19:33:30,837 - INFO: Database connection closed.
+2025-05-17 19:33:30,837 - INFO: Database connection closed.
+2025-05-17 19:33:30,838 - INFO: 127.0.0.1 - - [17/May/2025 19:33:30] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:33:30,838 - INFO: 127.0.0.1 - - [17/May/2025 19:33:30] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:34:31,659 - INFO: 127.0.0.1 - - [17/May/2025 19:34:31] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:34:31,659 - INFO: 127.0.0.1 - - [17/May/2025 19:34:31] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:34:31,922 - INFO: Successfully connected to SQL Server.
+2025-05-17 19:34:31,922 - INFO: Successfully connected to SQL Server.
+2025-05-17 19:34:31,937 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_193431_cb36454f.xlsx
+2025-05-17 19:34:31,937 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_193431_cb36454f.xlsx
+2025-05-17 19:34:31,939 - INFO: Database connection closed.
+2025-05-17 19:34:31,939 - INFO: Database connection closed.
+2025-05-17 19:34:31,940 - INFO: 127.0.0.1 - - [17/May/2025 19:34:31] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:34:31,940 - INFO: 127.0.0.1 - - [17/May/2025 19:34:31] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:39:12,340 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.44:5000
+2025-05-17 19:39:12,340 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.44:5000
+2025-05-17 19:39:12,340 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 19:39:12,340 - INFO: [33mPress CTRL+C to quit[0m
+2025-05-17 19:39:12,341 - INFO:  * Restarting with stat
+2025-05-17 19:39:12,341 - INFO:  * Restarting with stat
+2025-05-17 19:39:12,667 - WARNING:  * Debugger is active!
+2025-05-17 19:39:12,667 - WARNING:  * Debugger is active!
+2025-05-17 19:39:12,669 - INFO:  * Debugger PIN: 627-101-141
+2025-05-17 19:39:12,669 - INFO:  * Debugger PIN: 627-101-141
+2025-05-17 19:41:11,798 - INFO: 127.0.0.1 - - [17/May/2025 19:41:11] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-17 19:41:11,798 - INFO: 127.0.0.1 - - [17/May/2025 19:41:11] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-17 19:41:11,814 - INFO: 127.0.0.1 - - [17/May/2025 19:41:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 19:41:11,814 - INFO: 127.0.0.1 - - [17/May/2025 19:41:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 19:43:38,526 - INFO: 127.0.0.1 - - [17/May/2025 19:43:38] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:43:38,526 - INFO: 127.0.0.1 - - [17/May/2025 19:43:38] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:43:38,826 - INFO: Successfully connected to SQL Server.
+2025-05-17 19:43:38,826 - INFO: Successfully connected to SQL Server.
+2025-05-17 19:43:38,953 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_194338_a936ce3c.xlsx
+2025-05-17 19:43:38,953 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_194338_a936ce3c.xlsx
+2025-05-17 19:43:38,955 - INFO: Database connection closed.
+2025-05-17 19:43:38,955 - INFO: Database connection closed.
+2025-05-17 19:43:38,955 - INFO: 127.0.0.1 - - [17/May/2025 19:43:38] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:43:38,955 - INFO: 127.0.0.1 - - [17/May/2025 19:43:38] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:43:53,173 - INFO: 127.0.0.1 - - [17/May/2025 19:43:53] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:43:53,173 - INFO: 127.0.0.1 - - [17/May/2025 19:43:53] "OPTIONS /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:43:53,489 - INFO: Successfully connected to SQL Server.
+2025-05-17 19:43:53,489 - INFO: Successfully connected to SQL Server.
+2025-05-17 19:43:53,507 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_194353_9bb071a4.xlsx
+2025-05-17 19:43:53,507 - INFO: Results exported to: D:\Devops\Python\Scripts\2025-05-17\SQLResults_20250517_194353_9bb071a4.xlsx
+2025-05-17 19:43:53,509 - INFO: Database connection closed.
+2025-05-17 19:43:53,509 - INFO: Database connection closed.
+2025-05-17 19:43:53,509 - INFO: 127.0.0.1 - - [17/May/2025 19:43:53] "POST /execute-sql HTTP/1.1" 200 -
+2025-05-17 19:43:53,509 - INFO: 127.0.0.1 - - [17/May/2025 19:43:53] "POST /execute-sql HTTP/1.1" 200 -
