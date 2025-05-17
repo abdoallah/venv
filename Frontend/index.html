@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Najm SQL Script Executor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --najm-green: #34835c;
+            --najm-dark-green: #267048;
+            --najm-light-green: #e8f5f0;
+            --najm-gray: #555555;
+            --najm-light-gray: #f8f8f8;
+            --najm-hover: #267048;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        html {
+            height: 100%;
+            background-color: #f0f0f0;
+        }
+        
+        body {
+            background-color: var(--najm-light-gray);
+            color: var(--najm-gray);
+            line-height: 1.6;
+            width: 800px;
+            max-width: 95%;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+            min-height: 100vh;
+        }
+        
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid var(--najm-green);
+            padding-bottom: 15px;
+        }
+        
+        .logo {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--najm-green);
+            color: white;
+            font-size: 24px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        
+        .title-container h1 {
+            color: var(--najm-green);
+            font-size: 28px;
+        }
+        
+        .title-container p {
+            font-size: 14px;
+            color: var(--najm-gray);
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            margin-bottom: 25px;
+        }
+        
+        h2 {
+            color: var(--najm-green);
+            margin-bottom: 15px;
+            font-size: 20px;
+            border-bottom: 2px solid var(--najm-light-green);
+            padding-bottom: 8px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--najm-gray);
+        }
+        
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--najm-green);
+            box-shadow: 0 0 0 3px rgba(52, 131, 92, 0.2);
+        }
+        
+        textarea {
+            min-height: 150px;
+            font-family: 'Consolas', 'Courier New', monospace;
+            resize: vertical;
+        }
+        
+        .btn {
+            background-color: var(--najm-green);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .btn:hover {
+            background-color: var(--najm-hover);
+            transform: translateY(-2px);
+        }
+        
+        .btn i {
+            margin-right: 8px;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        #result {
+            background-color: var(--najm-light-green);
+            padding: 20px;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+        
+        .success {
+            color: var(--najm-green);
+        }
+        
+        .error {
+            color: #e74c3c;
+        }
+        
+        .sql-helper {
+            position: relative;
+        }
+        
+        .helper-btn {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            background: var(--najm-light-green);
+            color: var(--najm-green);
+            border: none;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .helper-btn:hover {
+            background: var(--najm-green);
+            color: white;
+        }
+        
+        .sql-snippets {
+            position: absolute;
+            right: 10px;
+            top: 45px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            z-index: 100;
+            padding: 15px;
+        }
+        
+        .snippet {
+            padding: 8px;
+            margin-bottom: 8px;
+            background: var(--najm-light-gray);
+            border-radius: 5px;
+            font-family: 'Consolas', 'Courier New', monospace;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .snippet:hover {
+            background: var(--najm-light-green);
+        }
+        
+        .fun-fact {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #f2f6ff;
+            border-left: 5px solid var(--najm-green);
+            border-radius: 5px;
+            font-style: italic;
+        }
+        
+        .fun-fact-title {
+            font-weight: bold;
+            color: var(--najm-green);
+            margin-bottom: 5px;
+        }
+        
+        .theme-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: var(--najm-green);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 18px;
+            transition: all 0.3s;
+            z-index: 10;
+        }
+        
+        .theme-toggle:hover {
+            transform: rotate(30deg);
+        }
+        
+        .dark-mode {
+            background-color: #222;
+            color: #eee;
+        }
+        
+        .dark-mode .card {
+            background-color: #333;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .dark-mode input, 
+        .dark-mode select, 
+        .dark-mode textarea {
+            background-color: #444;
+            color: #eee;
+            border-color: #555;
+        }
+        
+        .dark-mode .header {
+            border-bottom-color: var(--najm-green);
+        }
+        
+        .dark-mode .fun-fact {
+            background-color: #2a2a2a;
+        }
+        
+        .dark-mode .sql-snippets {
+            background-color: #333;
+        }
+        
+        .dark-mode .snippet {
+            background-color: #444;
+            color: #eee;
+        }
+        
+        .dark-mode .snippet:hover {
+            background-color: var(--najm-dark-green);
+            color: white;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .loading-spinner {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid var(--najm-green);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 14px;
+        }
+        
+        #easterEgg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 9999;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+        }
+        
+        #easterEgg button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: var(--najm-green);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        #easterEgg button:hover {
+            background-color: var(--najm-dark-green);
+        }
+    </style>
+</head>
+<body>
+    <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
+    
+    <div class="header">
+        <div class="logo">
+            <i class="fas fa-database"></i>
+        </div>
+        <div class="title-container">
+            <h1>Najm SQL Script Executor</h1>
+            <p>Execute multiple SQL queries and export results to Excel</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <h2><i class="fas fa-server"></i> Connection Settings</h2>
+        <form id="sqlForm">
+            <div class="form-group">
+                <label for="server">SQL Server Name or IP:</label>
+                <input type="text" id="server" name="server" placeholder="e.g. localhost\SQL2019 or 192.168.1.10" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="database">Database Name:</label>
+                <input type="text" id="database" name="database" placeholder="e.g. InsuranceDB" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="authType">Authentication Type:</label>
+                <select id="authType" name="authType">
+                    <option value="windows">Windows Authentication</option>
+                    <option value="sql">SQL Authentication</option>
+                </select>
+            </div>
+            
+            <div id="sqlAuthFields" class="hidden">
+                <div class="form-group">
+                    <label for="username">SQL Username:</label>
+                    <input type="text" id="username" name="username" placeholder="SQL Username">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">SQL Password:</label>
+                    <input type="password" id="password" name="password" placeholder="SQL Password">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="outputPath">Output Folder Path (optional):</label>
+                <input type="text" id="outputPath" name="outputPath" placeholder="Output folder path" value="D:\Devops\Python\Scripts">
+            </div>
+            
+            <div class="form-group sql-helper">
+                <label for="sqlScript">SQL Scripts:</label>
+                <textarea id="sqlScript" name="sqlScript" placeholder="-- Enter your SQL queries (separate each SELECT with a semicolon `;`)
+SELECT * FROM Table1;
+SELECT * FROM Table2;"></textarea>
+                <button type="button" class="helper-btn" id="showSnippets">
+                    <i class="fas fa-lightbulb"></i>
+                </button>
+                <div class="sql-snippets hidden" id="sqlSnippets">
+                    <div class="snippet" data-snippet="SELECT TOP 100 * FROM [TableName];">Basic SELECT</div>
+                    <div class="snippet" data-snippet="SELECT [col1], [col2] FROM [TableName] WHERE [condition];">Filtered SELECT</div>
+                    <div class="snippet" data-snippet="SELECT COUNT(*) AS RecordCount FROM [TableName];">COUNT Records</div>
+                    <div class="snippet" data-snippet="SELECT * FROM [TableName] ORDER BY [ColumnName] DESC;">Order Results</div>
+                    <div class="snippet" data-snippet="SELECT t1.*, t2.[Column] FROM [Table1] t1 JOIN [Table2] t2 ON t1.[ID] = t2.[ForeignKey];">JOIN Query</div>
+                </div>
+            </div>
+            
+            <button type="submit" class="btn">
+                <i class="fas fa-play"></i> Execute SQL
+            </button>
+        </form>
+    </div>
+    
+    <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+        <p>Executing SQL queries... <span id="loadingMessage">Connecting to server</span></p>
+    </div>
+    
+    <div class="card hidden" id="resultCard">
+        <h2><i class="fas fa-clipboard-check"></i> Execution Results</h2>
+        <div id="result"></div>
+    </div>
+    
+    <div class="fun-fact">
+        <div class="fun-fact-title"><i class="fas fa-robot"></i> SQL Fun Fact:</div>
+        <div id="funFact">Did you know? SQL was originally called SEQUEL (Structured English Query Language) and was developed at IBM in the 1970s.</div>
+    </div>
+    
+    <div class="footer">
+        <p>© 2025 Najm Insurance Services | Made with <span id="easterEggTrigger">❤️</span> by the Abdallah Shahin</p>
+    </div>
+    
+ <div id="easterEgg">
+    <h2>🚀 Vision 2030 Tech Pioneer Unlocked! 🇸🇦</h2>
+    <p>SELECT * FROM innovation WHERE location = 'Riyadh' AND role = 'Engineer';</p>
+    <p>Result: Najm Developer — transforming insurance with every line of code.</p>
+    <button id="closeEasterEgg">Time to write history again ✍️</button>
+</div>
+
+    
+    <script>
+        // Function to hide Easter Egg
+        function hideEasterEgg() {
+            document.getElementById('easterEgg').style.display = 'none';
+        }
+        
+        // Wait for DOM to be fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            const authType = document.getElementById('authType');
+            const sqlAuthFields = document.getElementById('sqlAuthFields');
+            const showSnippetsBtn = document.getElementById('showSnippets');
+            const sqlSnippets = document.getElementById('sqlSnippets');
+            const snippets = document.querySelectorAll('.snippet');
+            const sqlScript = document.getElementById('sqlScript');
+            const themeToggle = document.getElementById('themeToggle');
+            const body = document.body;
+            const easterEggTrigger = document.getElementById('easterEggTrigger');
+            const easterEgg = document.getElementById('easterEgg');
+            const closeEasterEgg = document.getElementById('closeEasterEgg');
+            const loading = document.getElementById('loading');
+            const loadingMessage = document.getElementById('loadingMessage');
+            const resultCard = document.getElementById('resultCard');
+            
+            // Easter egg button event listener
+            closeEasterEgg.addEventListener('click', hideEasterEgg);
+            
+            // Toggle SQL authentication fields
+            authType.addEventListener('change', function() {
+                sqlAuthFields.classList.toggle('hidden', this.value !== 'sql');
+            });
+            
+            // Toggle SQL snippets panel
+            showSnippetsBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                sqlSnippets.classList.toggle('hidden');
+            });
+            
+            // Insert SQL snippets
+            snippets.forEach(snippet => {
+                snippet.addEventListener('click', function() {
+                    const snippetText = this.getAttribute('data-snippet');
+                    const cursorPosition = sqlScript.selectionStart;
+                    const textBefore = sqlScript.value.substring(0, cursorPosition);
+                    const textAfter = sqlScript.value.substring(cursorPosition);
+                    
+                    sqlScript.value = textBefore + snippetText + textAfter;
+                    sqlSnippets.classList.add('hidden');
+                    
+                    // Set focus back to textarea and place cursor after inserted snippet
+                    sqlScript.focus();
+                    sqlScript.selectionStart = cursorPosition + snippetText.length;
+                    sqlScript.selectionEnd = cursorPosition + snippetText.length;
+                });
+            });
+            
+            // Close snippets panel when clicking outside
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.sql-helper') && !sqlSnippets.classList.contains('hidden')) {
+                    sqlSnippets.classList.add('hidden');
+                }
+            });
+            
+            // Toggle dark/light theme
+            themeToggle.addEventListener('click', function() {
+                body.classList.toggle('dark-mode');
+                const isDarkMode = body.classList.contains('dark-mode');
+                themeToggle.innerHTML = isDarkMode ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+            });
+            
+            // Easter egg trigger
+            let clickCount = 0;
+            easterEggTrigger.addEventListener('click', function() {
+                clickCount++;
+                if (clickCount >= 3) {
+                    easterEgg.style.display = 'flex';
+                    clickCount = 0;
+                }
+            });
+            
+            // Form submission handler
+            document.getElementById('sqlForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Show loading indicator
+                loading.style.display = 'block';
+                resultCard.classList.add('hidden');
+                
+                // Simulate loading states (just for UI demo)
+                const loadingStates = [
+                    "Connecting to server...",
+                    "Validating SQL syntax...",
+                    "Executing queries...",
+                    "Generating Excel report..."
+                ];
+                
+                let stateIndex = 0;
+                const loadingInterval = setInterval(() => {
+                    if (stateIndex < loadingStates.length) {
+                        loadingMessage.textContent = loadingStates[stateIndex];
+                        stateIndex++;
+                    } else {
+                        clearInterval(loadingInterval);
+                    }
+                }, 800);
+                
+                const payload = {
+                    server: document.getElementById('server').value,
+                    database: document.getElementById('database').value,
+                    sql_script: document.getElementById('sqlScript').value,
+                    output_path: document.getElementById('outputPath').value || "D:\\Devops\\Python\\Scripts",
+                    authentication: {
+                        type: authType.value
+                    }
+                };
+                
+                if (authType.value === 'sql') {
+                    payload.authentication.username = document.getElementById('username').value;
+                    payload.authentication.password = document.getElementById('password').value;
+                }
+                
+                fetch('http://localhost:5000/execute-sql', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(payload)
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Hide loading and show result
+                    loading.style.display = 'none';
+                    resultCard.classList.remove('hidden');
+                    
+                    const resultDiv = document.getElementById('result');
+                    if (data.status === 'success') {
+                        resultDiv.innerHTML = `
+                            <h3 class="success"><i class="fas fa-check-circle"></i> Execution Successful</h3>
+                            <p><strong>Excel file saved at:</strong> ${data.file_path}</p>
+                            <p><strong>Queries executed:</strong> ${data.query_count || 'Multiple'}</p>
+                            <p><strong>Execution time:</strong> ${data.execution_time || '0.5'} seconds</p>
+                        `;
+                    } else {
+                        resultDiv.innerHTML = `
+                            <h3 class="error"><i class="fas fa-exclamation-triangle"></i> Execution Failed</h3>
+                            <p>${data.error}</p>
+                        `;
+                    }
+                })
+                .catch(error => {
+                    loading.style.display = 'none';
+                    resultCard.classList.remove('hidden');
+                    
+                    const resultDiv = document.getElementById('result');
+                    resultDiv.innerHTML = `
+                        <h3 class="error"><i class="fas fa-exclamation-triangle"></i> Network Error</h3>
+                        <p>Could not connect to the server. Please check if the API is running.</p>
+                        <p>Error details: ${error}</p>
+                    `;
+                });
+            });
+            
+            // Keyboard shortcuts
+            document.addEventListener('keydown', function(e) {
+                // Ctrl+Enter to execute SQL
+                if (e.ctrlKey && e.key === 'Enter' && document.activeElement === sqlScript) {
+                    document.getElementById('sqlForm').dispatchEvent(new Event('submit'));
+                }
+                
+                // Ctrl+/ for SQL comment
+                if (e.ctrlKey && e.key === '/') {
+                    if (document.activeElement === sqlScript) {
+                        e.preventDefault();
+                        const start = sqlScript.selectionStart;
+                        const end = sqlScript.selectionEnd;
+                        const selectedText = sqlScript.value.substring(start, end);
+                        
+                        if (selectedText.trim().startsWith('--')) {
+                            // Uncomment
+                            const uncommented = selectedText.replace(/^--\s?/gm, '');
+                            sqlScript.value = sqlScript.value.substring(0, start) + uncommented + sqlScript.value.substring(end);
+                            sqlScript.selectionStart = start;
+                            sqlScript.selectionEnd = start + uncommented.length;
+                        } else {
+                            // Comment
+                            const commented = '-- ' + selectedText;
+                            sqlScript.value = sqlScript.value.substring(0, start) + commented + sqlScript.value.substring(end);
+                            sqlScript.selectionStart = start;
+                            sqlScript.selectionEnd = start + commented.length;
+                        }
+                    }
+                }
+            });
+            
+            // Fun facts
+            const funFacts = [
+                "SQL was originally called SEQUEL (Structured English Query Language) and was developed at IBM in the 1970s.",
+                "The 'WHERE 1=1' condition in SQL is often used to make dynamic queries easier to build programmatically.",
+                "NULL is not equal to anything in SQL, not even to another NULL. That's why we use IS NULL instead of = NULL.",
+                "SQL is not a programming language, it's a query language. That's why it lacks traditional programming constructs like loops.",
+                "The SQL standard doesn't specify the syntax for limiting results. Different databases use LIMIT, TOP, or FETCH FIRST.",
+                "SQL injection was listed as the #1 web application security risk in the OWASP Top 10 for many years.",
+                "Microsoft SQL Server uses T-SQL (Transact-SQL), which is an extension of SQL with procedural programming features.",
+                "The COALESCE function in SQL returns the first non-NULL expression from a list - a handy way to handle NULL values!",
+                "Common Table Expressions (CTEs) were introduced in SQL:1999 standard to simplify complex queries like recursion.",
+                "The SQL language was standardized by ANSI in 1986 and ISO in 1987, but each DBMS still has its own dialect."
+            ];
+            
+            // Randomly select a fun fact
+            document.getElementById('funFact').textContent = funFacts[Math.floor(Math.random() * funFacts.length)];
+        });
+    </script>
+</body>
+</html>
